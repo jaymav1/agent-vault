@@ -1,0 +1,17 @@
+{
+  "name": "metis-agent-vault",
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "paywall": "node paywall.js",
+    "agent": "node agent.js",
+    "watch": "node watch.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.0"
+  }
+}
